@@ -1,13 +1,28 @@
 body {
-    background-color: #eaf6f6;
+    margin: 0;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
+
 
 h1 {
-    color: #66bfbf;
+    margin: 50px auto 10px auto;
+    font-family: 'Rubik', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #95D1CC;
 }
 
-h3 {
-    color: #66bfbf;
+h2 {
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #95D1CC;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    color: #95D1CC;
 }
 
 hr {
@@ -16,5 +31,53 @@ hr {
     border-color: grey;
     border-width: 5px;
     width: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
+table {
+    position: relative;
+    border-spacing: 80px;
+    text-align: left;
+}
+
+.design-row {
+    margin: auto 400px auto 400px;
+}
+
+.top-container {
+    background-color: #5584AC;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+.bottom-cloud {
+    position: absolute;
+    left: 500px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.intro {
+    font-size: 1.5rem;
+    color: #22577E;
+    margin: auto;
+}
+
+.hello-greeting {
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: #22577E;
+}
